@@ -5,6 +5,7 @@
     font-family: "Poppins", sans-serif;
     font-style: normal;
     text-decoration: none;
+    list-style: none;
 }
 
 html{
@@ -19,10 +20,54 @@ html{
 }
 
 .header{
-    background-color: aqua;
     padding-top: 37px;
     padding-bottom: 37px;
+    display: flex;
+    align-items: center;
     margin-bottom: 10px;
+    justify-content: space-between;
+    gap: 20px
+}
+
+.content-header{
+    display: flex;
+    align-items: center;
+    max-width: 785px;
+    width: 100%;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    max-width: 467px ;
+    width: 100%;
+    justify-content: space-between;
+    gap: 20px
+}
+
+.header-buttons{
+    display: flex;
+    align-items: center;
+    max-width: 226px;
+    width: 100%;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.nav li a, .header-buttons a{
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 21px;
+    text-align: left;
+    color: #262626;
+}
+
+.contact-us{
+    padding: 8px 32px;
+    border-radius: 40px;
+    background: #4CE0D7;
 }
 
 .main-1-part-1{
