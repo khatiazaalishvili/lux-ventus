@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .line {
     border-top: 1px solid #bcbcbc;
     margin-bottom: 55px ;
@@ -139,3 +140,10 @@ color: #4CE0D7;
 
 
 }
+=======
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+>>>>>>> 049cdb9819d8becfd651dc79ddb3bfa3e5a5a1f5
