@@ -1,4 +1,4 @@
-/* Giorgi start */
+/* saerto */
 * {
   margin: 0;
   padding: 0;
@@ -38,6 +38,12 @@ a:hover {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
+.article-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
+/* saerto */
+/* Giorgi start */
 .header {
   padding-top: 37px;
   padding-bottom: 37px;
@@ -224,16 +230,15 @@ h2 {
 .imgcontainer img {
   border-radius: 20px;
 }
-.button-fashion {
+
+.fashion-tag {
   position: absolute;
   top: 20px;
   left: 30px;
   padding: 10px 81px;
   background: #262626;
   border-radius: 40px;
-}
 
-.button-fashion a {
   font-size: 12px;
   font-weight: 700;
   line-height: 18px;
@@ -333,3 +338,96 @@ p {
 }
 
 /* Khatuna end */
+/*Khatia start*/
+
+main {
+  max-width: 1204px;
+  margin: 20px auto;
+}
+
+.trending-title {
+  margin-bottom: 55px;
+}
+
+.articles {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.article-card {
+  background: #fff;
+  border-radius: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  width: calc(50% - 10px);
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.article-image {
+  height: 280px;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  border-radius: 20px;
+}
+
+.article-tag {
+  position: absolute;
+  top: 20px;
+  left: 34px;
+  padding: 9px 51px;
+  background: #262626;
+  border-radius: 40px;
+
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 18px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.article-content {
+  padding: 22px 100px 36px 33px;
+  display: flex;
+  flex: column;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.article-meta {
+  display: flex;
+  gap: 21px;
+}
+
+.author-img {
+  width: 65px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.article-meta div {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.article-text {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.article-text p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #262626;
+}
+/*Khatia end*/
