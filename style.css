@@ -113,7 +113,6 @@ h1 {
 span {
   font-weight: 700;
   background: -webkit-linear-gradient(90deg, #4ce0d7 43.06%, #8ba9f4 100%);
-  -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
@@ -189,3 +188,34 @@ h2 {
   border-radius: 40px;
   background: #4ce0d7;
 }
+
+/* Nutsa footer */
+.main-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid black;
+}
+
+.footer-text span {
+  color: blue;
+}
+
+.footer-socials {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.footer-logo .hangOut {
+  margin-right: 10px;
+}
+
+.main-footer .footer-logo img {
+  width: 226px;
+  height: 49px;
+}
+/* Nutsa footer finish */
