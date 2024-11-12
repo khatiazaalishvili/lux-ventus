@@ -21,9 +21,11 @@ html {
 }
 
 a:hover {
+  color: #040273;
+  transform: translateY(-3px);
   opacity: 0.8;
   text-decoration: underline;
-  transition: opacity 0.3s ease, text-decoration 0.3s ease;
+  transition: opacity 0.3s ease;
 }
 
 .card:hover {
@@ -48,6 +50,7 @@ a:hover {
   box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
 }
 /* saerto */
+
 /* Giorgi start */
 .header {
   padding-top: 37px;
@@ -137,8 +140,8 @@ h1 {
 span {
   font-weight: 700;
   background: -webkit-linear-gradient(90deg, #4ce0d7 43.06%, #8ba9f4 100%);
-  -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
 }
 
 .main-1-part-1-text {
@@ -208,6 +211,7 @@ h2 {
   background: #4ce0d7;
 }
 /* Giorgi end */
+
 /* Khatuna start */
 .line {
   border-top: 1px solid #bcbcbc;
@@ -341,10 +345,9 @@ p {
   color: #4ce0d7;
   align-self: center;
 }
-
 /* Khatuna end */
-/*Khatia start*/
 
+/*Khatia start*/
 main {
   max-width: 1204px;
   margin: 20px auto;
@@ -436,8 +439,8 @@ main {
   color: #262626;
 }
 /*Khatia end*/
-/*Khatia start*/
 
+/*Khatia start*/
 .articles2 {
   display: flex;
   flex-direction: column;
@@ -470,3 +473,53 @@ main {
   gap: 27px;
 }
 /*Khatia end*/
+
+/* Nutsa start */
+.main-footer {
+  background: #fff;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  padding: 87px 89px 37px 84px;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 34px;
+  padding-bottom: 77px;
+  border-bottom: 1px solid #bcbcbc;
+}
+
+.footer-content .footer-logo img {
+  width: 226px;
+  height: 49px;
+}
+
+.hangOut {
+  margin-right: 20px;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 39px;
+  text-align: left;
+  color: #262626;
+}
+
+.footer-socials {
+  display: flex;
+  align-items: center;
+  gap: 21px;
+}
+
+h4 {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 21px;
+  text-align: left;
+  color: #262626;
+}
+/* Nutsa end*/
