@@ -42,6 +42,11 @@ a:hover {
   transform: translateY(-5px);
   box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
 }
+
+.article2-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
 /* saerto */
 /* Giorgi start */
 .header {
@@ -354,6 +359,7 @@ main {
   gap: 20px;
   flex-wrap: wrap;
   justify-content: space-between;
+  margin-bottom: 88px;
 }
 
 .article-card {
@@ -393,7 +399,6 @@ main {
 .article-content {
   padding: 22px 100px 36px 33px;
   display: flex;
-  flex: column;
   flex-direction: column;
   gap: 30px;
 }
@@ -431,3 +436,37 @@ main {
   color: #262626;
 }
 /*Khatia end*/
+/* Giorgi and Khatia start*/
+
+.articles2 {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  margin-bottom: 69px;
+}
+
+.article2-card {
+  display: flex;
+  background: #fff;
+  border-radius: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.article2-image {
+  height: 367px;
+  width: 547px;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  border-radius: 20px;
+}
+
+.article2-content {
+  padding: 25px 100px 0px 45px;
+  display: flex;
+  flex-direction: column;
+  gap: 27px;
+}
+/* Giorgi and Khatia end*/
